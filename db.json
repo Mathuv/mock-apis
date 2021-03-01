@@ -1,11 +1,114 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Mathu"
+    "application": {
+        "plan": {
+            "product_code": "arogya_plus",
+            "cover_type": "2A",
+            "tenure": 1,
+            "sum_insured": 250000,
+            "currency": "INR"
+        },
+        "external_reference_id": "29be4249-c1b6-4934-8eb0-c775349a47a0",
+        "created_at": "2020-06-05 14:00:01",
+        "updated_at": "2020-06-05 14:00:02",
+        "source": "ic_v1.3",
+        "channel": "hdfc",
+        "external_extra_params": {
+            "<key_1>": "<value_1>",
+            "<key_2>": "<value_2>"
+        },
+        "location": {
+            "state": "KERALA",
+            "country": "IN"
+        },
+        "completed_by": {
+            "external_user_id": "61701bc8-0d3f-4aa7-8090-9a500cd21f7d"
+        },
+        "members": [
+            {
+                "type": "proposer",
+                "member_id": "32c57058-23ed-11eb-adc1-0242ac120002",
+                "first_name": "Alice",
+                "last_name": "Smith",
+                "email": "alict.smith@gmail.com",
+                "mobile_phone": "+9123456654343",
+                "annual_income": 85000,
+                "education_level": "tertiary",
+                "birth_sex": "female",
+                "date_of_birth": "13-07-1976",
+                "occupation": "sales_manager",
+                "weight": 67,
+                "height": 167,
+                "smoking": {
+                    "last_cigarette": "in_the_last_month",
+                    "cigarettes_per_day": 2,
+                    "years_of_smoking": 2
+                },
+                "alcohol_consumption": {
+                    "beer": {
+                        "drinks_per_week": 4
+                    },
+                    "spirits": {
+                        "drinks_per_week": 0
+                    },
+                    "wine": {
+                        "drinks_per_week": 0
+                    },
+                    "shots": {
+                        "drinks_per_week": 0
+                    },
+                    "other": {
+                        "drinks_per_week": 0
+                    }
+                },
+                "chemical_exposure": "yes",
+                "sleep_time": 8.5,
+                "address": {
+                    "address1": "167",
+                    "address2": "Nanubhai Desai Road",
+                    "address3": null,
+                    "city": "Mumbai",
+                    "state": "Maharashtra",
+                    "postal_code": 400004,
+                    "country": "India"
+                },
+                "nstp": "true"
+            },
+            {
+                "type": "spouse",
+                "member_id": "500768b0-23ed-11eb-adc1-0242ac120002",
+                "first_name": "John",
+                "last_name": "Smith",
+                "annual_income": 85000,
+                "education_level": "tertiary",
+                "birth_sex": "male",
+                "date_of_birth": "19-02-1973",
+                "occupation": "general_manager",
+                "weight": 85,
+                "height": 191,
+                "smoking": {
+                    "last_cigarette": "never"
+                },
+                "alcohol_consumption": {
+                    "beer": {
+                        "drinks_per_week": 0
+                    },
+                    "spirits": {
+                        "drinks_per_week": 0
+                    },
+                    "wine": {
+                        "drinks_per_week": 0
+                    },
+                    "shots": {
+                        "drinks_per_week": 0
+                    },
+                    "other": {
+                        "drinks_per_week": 0
+                    }
+                },
+                "chemical_exposure": "no",
+                "sleep_time": 7.5,
+                "nstp": "false"
+            }
+        ]
     }
-  ],
-  "profile": {
-    "name": "Medius"
-  }
 }
