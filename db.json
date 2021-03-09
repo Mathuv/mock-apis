@@ -71,7 +71,7 @@
                     "postal_code": 400004,
                     "country": "India"
                 },
-                "nstp": "true"
+                "nstp": true
             },
             {
                 "type": "spouse",
@@ -107,7 +107,7 @@
                 },
                 "chemical_exposure": "no",
                 "sleep_time": 7.5,
-                "nstp": "false"
+                "nstp": false
             }
         ]
     }
