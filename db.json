@@ -71,7 +71,7 @@
                     "postal_code": 400004,
                     "country": "India"
                 },
-                "nstp": true
+                "nstp": false
             },
             {
                 "type": "spouse",
