@@ -107,7 +107,7 @@
                 },
                 "chemical_exposure": "no",
                 "sleep_time": 7.5,
-                "nstp": true
+                "nstp": false
             }
         ]
     }
